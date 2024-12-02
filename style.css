@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Toolbox Designs */
+.toolbox-cont {
+    background-color: #4b4b4b;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.toolbox-filter-colors {
+    background-color: #3d3d3d;
+    width: 18rem;
+    height: 3.5rem;
+    margin-left: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.color-box {
+    height: 1.5rem;
+    width: 3rem;
+
+}
+
+.Action-btn-cont {
+    background-color: #3d3d3d;
+    width: 8rem;
+    height: 3.5rem;
+    margin-left: 4rem;
+    display: flex;
+}
+
+.Action-btn-cont>* {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Filter colors */
+.lightcoral {
+    background-color: #F08080;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.lightpink {
+    background-color: lightpink;
+}
+
+.lightseagreen {
+    background-color: lightseagreen;
+}
+
+/* Modal container */
+.modal-cont {
+    height: 40vh;
+    width: 45vw;
+    display: None;
+    position: absolute;
+    top: 30%;
+    left: 27%;
+}
+
+.text-area {
+    height: 100%;
+    width: 70%;
+    background-color: #dfe4ea;
+    resize: none;
+    border: none;
+    outline: none;
+
+}
+
+.priority-color-cont {
+    height: 100%;
+    background-color: #4b4b4b;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.priority-color {
+    height: 3rem;
+    width: 5rem;
+
+}
+
+/* Ticket-Design */
+
+.main-cont {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+.ticket-cont {
+    height: 12rem;
+    width: 15rem;
+    background-color: #aed6f1;
+
+}
+
+.ticket-color {
+    height: 1.5rem;
+
+
+}
+
+.ticket-id {
+    background-color: gray;
+    height: 2rem;
+}
+
+.ticket-lock {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 90px;
+    margin-right: 3px;
+    font-size: 1.5rem;
+}
+
+.active {
+    border: 3px solid red;
+}
